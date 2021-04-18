@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chat_app">
+    package="com.akshitachi.nure_chat">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="chat_app"
+        android:label="Nure Chat"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
